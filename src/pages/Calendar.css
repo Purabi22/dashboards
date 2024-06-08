@@ -1,0 +1,21 @@
+/* Calendar.css */
+
+.calendar-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #96acc2; /* Lighter gray background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  .calendar-heading {
+    font-size: 24px;
+    color: #0e2945; /* Blue text color */
+  }
+  
+  .calendar {
+    margin-top: 20px;
+  }
+  
+  /* Add any additional styles or animations here */
+  

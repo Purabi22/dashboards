@@ -1,0 +1,45 @@
+/* Settings.css */
+
+/* Animation for the moving background */
+@keyframes movingBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Container for settings */
+  .settings-container {
+    /* Animation properties */
+    animation: movingBackground 20s linear infinite; /* Adjust animation duration as needed */
+    
+    /* Background properties */
+    background: linear-gradient(to right, #ff8a00, #da1b60, #ff0080); /* Gradient background colors */
+    background-size: 300% 300%; /* Background size */
+    
+    /* Layout and positioning */
+    height: 100vh; /* Set height to 100% of viewport height */
+    width: 100%; /* Set width to 100% of viewport width */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the top */
+    align-items: center; /* Center horizontally */
+    
+    /* Border and shadow effect */
+    border: 2px solid #333; /* Add border with color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  }
+  
+  /* Settings heading */
+  .settings-heading {
+    font-size: 32px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: #000; /* Black text color */
+    margin-top: 20px; /* Add top margin for spacing */
+  }
+  
